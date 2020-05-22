@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+
+/* Debug: add borders to all elements
+/*
+* {
+    border-style: solid;
+    border-width: 1px; 
+}
+*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+
+.wrapper {
+    margin: auto;
+    width: 920px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #CCCCCC;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.header li a:hover {
+    background-color: #888888;
+    color: #000000;
+}
+
+.section {
+    display: block;
+    width: 44%;
+    margin: 0 2.5% 0;
+    float: left;
+}
+
+#skills {
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+#skills th {
+    text-align: center;
+    background-color: #CCCCCC;
+}
+
+#skills tr:nth-child(even) {
+    background: #AAAAAA;
+}
+
+#skills tr:nth-child(odd) {
+    background: #DDDDDD;
+}
+
+#skills tr td:first-child {
+    font-style: bold;
+    color: #00CC00
+}
