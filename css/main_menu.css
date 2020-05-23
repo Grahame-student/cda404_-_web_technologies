@@ -1,0 +1,64 @@
+
+/*
+ *   Constants for colour scheme 82. as per
+ *   https://www.canva.com/learn/100-color-combinations/
+*/
+:root {
+  --custom-color-ink:       #20232A;
+  --custom-color-aluminium: #ACBEBE;
+  --custom-color-paper:     #F4F4EF;
+  --custom-color-ruby-red:  #A01D26;
+}
+
+
+body {
+    font-family: arial, sans-serif;
+    background-color: var(--custom-color-paper);
+    color: var(--custom-color-ink);
+}
+
+#wrapper {
+    margin: auto;
+    width: 920px;
+}
+
+#header {
+    text-align: center;
+}
+
+#main_content {
+    text-align: center;
+}
+
+#main_content ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 30px;
+    margin: 0;
+    overflow: hidden;
+    background-color: var(--custom-color-ruby-red);
+    color: var(--custom-color-paper);
+    border-radius: 15px 60px;
+}
+
+#main_content hr {
+    color: var(--custom-color-paper);
+}
+
+#main_content li a {
+    display: block;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#main_content li a:hover {
+    background-color: var(--custom-color-aluminium);
+    color: var(--custom-color-ink);
+    border-radius: 5px 15px;
+}
+
+#footer {
+    text-align: center;
+}

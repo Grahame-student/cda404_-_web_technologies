@@ -1,0 +1,81 @@
+
+/*
+ *   Constants for colour scheme 82. as per
+ *   https://www.canva.com/learn/100-color-combinations/
+*/
+:root {
+  --custom-color-ink:       #20232A;
+  --custom-color-aluminium: #ACBEBE;
+  --custom-color-paper:     #F4F4EF;
+  --custom-color-ruby-red:  #A01D26;
+}
+
+
+body {
+    font-family: arial, sans-serif;
+    background-color: var(--custom-color-paper);
+    color: var(--custom-color-ink);
+}
+
+#wrapper {
+    margin: auto;
+    width: 920px;
+}
+
+#header {
+    text-align: center;
+}
+
+#main_content {
+    text-align: center;
+}
+
+#main_content ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 30px;
+    margin: 0;
+    overflow: hidden;
+    background-color: var(--custom-color-ruby-red);
+    color: var(--custom-color-paper);
+    border-radius: 15px 60px;
+}
+
+.cv_section:not(:last-child) {    
+    border-bottom: solid 1px var(--custom-color-ink);
+    margin-bottom: 5px;
+}
+
+.cv_section p {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.cv_section .cv_section_title {
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+.cv_section .cv_section_role .cv_section_role_title {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.cv_section .cv_section_role .cv_section_role_achievements p {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.cv_section .cv_section_role .cv_section_role_achievements > ul {
+    margin-left: 25px;
+}
+
+.cv_section .cv_section_role .cv_section_role_achievements ul li {
+    text-align: justify;
+}
+
+#footer {
+    text-align: center;
+}
