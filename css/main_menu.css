@@ -38,7 +38,7 @@ body {
     overflow: hidden;
     background-color: var(--custom-color-ruby-red);
     color: var(--custom-color-paper);
-    border-radius: 15px 60px;
+    border-radius: 10px 80px;
 }
 
 #main_content hr {
@@ -48,9 +48,10 @@ body {
 #main_content li a {
     display: block;
     padding: 5px;
-    color: white;
+    color: var(--custom-color-paper);
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;    
+    font-weight: bold;
 }
 
 #main_content li a:hover {
