@@ -1,0 +1,8 @@
+* {
+    border: solid 1px red;
+}
+
+#wrapper {
+    width:920px;
+    margin: 0 auto;
+}
