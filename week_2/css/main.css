@@ -1,8 +1,70 @@
+/*
 * {
     border: solid 1px red;
+}
+*/
+
+body {
+    font-family: arial, sans-serif;
 }
 
 #wrapper {
     width:920px;
     margin: 0 auto;
+    
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav header {
+    background-size: contain;
+    display: inline-block;
+}
+
+nav header img {
+    max-width: 100px;
+    height: auto;
+}    
+
+nav menu {
+    display: inline-block;
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0 auto;
+}
+
+nav menu li {
+    float: left;
+    margin-left: 25px;
+}
+
+nav menu li:first-child {
+    margin-left: 75px;
+}
+
+nav menu li:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 15px;
+    margin: 4px 4px;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+nav menu li a {
+    font-size: small;
+    padding: 2px 4px;
+}
+
+nav menu li a:hover {
+    border-radius: 20px;
+    background-color: #F3546F;
+    color: white;
 }
