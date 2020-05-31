@@ -16,12 +16,13 @@ body {
 }
 
 #wrapper {
-    width:800px;
+    width:700px;
     margin: auto;
     
     background-color: white;
     color: black;
 }
+
 
 #content {
     display: inline-block;
@@ -207,3 +208,4 @@ nav menu li a:hover {
     overflow: hidden;
     font-size: x-small;    
 }
+
